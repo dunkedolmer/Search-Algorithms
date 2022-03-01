@@ -1,0 +1,16 @@
+C:\Users\Frederik\source\repos\Algorithms\Algorithms\bin\Debug\net5.0\Algorithms.exe
+C:\Users\Frederik\source\repos\Algorithms\Algorithms\bin\Debug\net5.0\Algorithms.deps.json
+C:\Users\Frederik\source\repos\Algorithms\Algorithms\bin\Debug\net5.0\Algorithms.runtimeconfig.json
+C:\Users\Frederik\source\repos\Algorithms\Algorithms\bin\Debug\net5.0\Algorithms.runtimeconfig.dev.json
+C:\Users\Frederik\source\repos\Algorithms\Algorithms\bin\Debug\net5.0\Algorithms.dll
+C:\Users\Frederik\source\repos\Algorithms\Algorithms\bin\Debug\net5.0\ref\Algorithms.dll
+C:\Users\Frederik\source\repos\Algorithms\Algorithms\bin\Debug\net5.0\Algorithms.pdb
+C:\Users\Frederik\source\repos\Algorithms\Algorithms\obj\Debug\net5.0\Algorithms.csproj.AssemblyReference.cache
+C:\Users\Frederik\source\repos\Algorithms\Algorithms\obj\Debug\net5.0\Algorithms.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Frederik\source\repos\Algorithms\Algorithms\obj\Debug\net5.0\Algorithms.AssemblyInfoInputs.cache
+C:\Users\Frederik\source\repos\Algorithms\Algorithms\obj\Debug\net5.0\Algorithms.AssemblyInfo.cs
+C:\Users\Frederik\source\repos\Algorithms\Algorithms\obj\Debug\net5.0\Algorithms.csproj.CoreCompileInputs.cache
+C:\Users\Frederik\source\repos\Algorithms\Algorithms\obj\Debug\net5.0\Algorithms.dll
+C:\Users\Frederik\source\repos\Algorithms\Algorithms\obj\Debug\net5.0\ref\Algorithms.dll
+C:\Users\Frederik\source\repos\Algorithms\Algorithms\obj\Debug\net5.0\Algorithms.pdb
+C:\Users\Frederik\source\repos\Algorithms\Algorithms\obj\Debug\net5.0\Algorithms.genruntimeconfig.cache
