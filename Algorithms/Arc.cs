@@ -12,6 +12,8 @@ namespace Algorithms
 
         public Node Incoming { get; }
 
+        public int Cost { get; set; }
+
         public Arc(Node Outgoing, Node Incoming)
         {
             this.Outgoing = Outgoing;

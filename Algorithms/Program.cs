@@ -42,9 +42,10 @@ namespace Algorithms
 
             //Debugging
             GraphGenerator graphGenerator = new GraphGenerator();
-            Graph Test = graphGenerator.Generate(10);
-            Test.Display();
-
+            Graph Test = graphGenerator.Generate(100);
+            Test.SetGoalState(99);
+            //Test.Display();
+            Search.RunDebug(Test, Test.Nodes[0], Test.Nodes[99]);
         }
     }
 }

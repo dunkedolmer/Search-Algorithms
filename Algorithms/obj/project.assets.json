@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Frederik\\source\\repos\\Algorithms\\Algorithms\\Algorithms.csproj",
+      "projectUniqueName": "C:\\Users\\Frederik\\Documents\\GitHub\\Search-Algorithms\\Algorithms\\Algorithms.csproj",
       "projectName": "Algorithms",
-      "projectPath": "C:\\Users\\Frederik\\source\\repos\\Algorithms\\Algorithms\\Algorithms.csproj",
+      "projectPath": "C:\\Users\\Frederik\\Documents\\GitHub\\Search-Algorithms\\Algorithms\\Algorithms.csproj",
       "packagesPath": "C:\\Users\\Frederik\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Frederik\\source\\repos\\Algorithms\\Algorithms\\obj\\",
+      "outputPath": "C:\\Users\\Frederik\\Documents\\GitHub\\Search-Algorithms\\Algorithms\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Frederik\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -60,7 +60,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.405\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
       }
     }
   }

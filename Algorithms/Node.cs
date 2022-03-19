@@ -26,6 +26,11 @@ namespace Algorithms
             {
                 return _Goal;
             }
+
+            set
+            {
+                _Goal = value;
+            }
         }
 
         public List<Arc> Previous { get; set; }

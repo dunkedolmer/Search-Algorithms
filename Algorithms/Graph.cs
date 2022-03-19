@@ -49,6 +49,27 @@ namespace Algorithms
             }
         }
 
+        public void SetGoalState(int ID)
+        {
+            if (_Nodes[ID] != null)
+            {
+                _Nodes[ID].Goal = true;
+            }
+            
+            else
+            {
+                Console.WriteLine($"Node {ID} was not found!");
+            }
+        }
+
+        public void ResetGoalStates()
+        {
+            foreach (Node N in _Nodes)
+            {
+                N.Goal = false;
+            }
+        }
+
         public void Display()
         {
             foreach (Node N in Nodes)
@@ -62,6 +83,11 @@ namespace Algorithms
                 Console.WriteLine($"Arc: {i} {A.Show()}");
                 i++;
             }
+        }
+
+        public int Heuristic(Node N)
+        {
+            return 0;
         }
     }
 }

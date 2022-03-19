@@ -18,11 +18,14 @@ namespace Algorithms
 
             Random Random = new Random();
 
-            for (int i = 1; i < size; i++)
+            for (int i = 1; i < size; i++) // Adding nodes
             {
                 Node N = new Node(i, false);
                 Nodes.Add(N);
+            }
 
+            for (int i = 1; i < size; i++) // Adding arcs to nodes
+            {
                 if (Random.Next(1, 3) == 1)
                 {
                     Arc A = new Arc(Nodes[i - 1], Nodes[i]);
@@ -33,15 +36,19 @@ namespace Algorithms
                 {
                     Arc A = new Arc(Nodes[i - 1], Nodes[i]);
                     Arcs.Add(A);
-
-                    Arc B = new Arc(Nodes[i - 1], Nodes[Random.Next(1, Nodes.Count - 1)]);
-                    Arcs.Add(B);
+            
+                    Arc B = new Arc(Nodes[i - 1], Nodes[Random.Next(i, Nodes.Count - 1)]);
+                    
+                    if (B.Incoming != A.Incoming) // To prevent possible duplicate arcs
+                    {
+                        Arcs.Add(B);
+                    }
                 }
             }
 
             Graph Result = new Graph(Nodes, Arcs);
 
             return Result;
-        }
+        }        
     }
 }
